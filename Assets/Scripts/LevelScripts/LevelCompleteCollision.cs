@@ -12,6 +12,7 @@ namespace Mohib
             if (other.gameObject.tag == "Player")
             {
                 gameManager.LevelComplete();
+                Destroy(gameObject);
             }
         }
     }

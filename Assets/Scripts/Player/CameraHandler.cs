@@ -21,7 +21,7 @@ namespace Mohib
         public float followSpeed = 0.01f;
         public float pivotSpeed = 0.03f;
 
-        private Vector3 offset = new Vector3(0, 0, 0.1f);
+        private Vector3 offset = new Vector3(0, 0, 0.01f);
         private float targetPosition;
         private float defaultPosition;
         private float loookAngle;
